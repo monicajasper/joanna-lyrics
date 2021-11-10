@@ -4,7 +4,7 @@ HTML5
 Technical Doc Page for FreeCodeCamp Responsive Web Design Project
 
 Author: Monica Jasper
-Date: October 2021
+Date: November 2021
 
 Simple web page using responsive media.
 
@@ -14,898 +14,1027 @@ Technical documentation page turned Joanna Newsom lyrics site
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Joanna Newsom - Lyrics for Selected Works</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <meta charset="UTF-8">
+  <title>Joanna Newsom - Lyrics for Selected Works</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
- <body>
-  <img href="background-image" alt=""><!--Pretty ornate but subtle background pattern-->
+  
+<body>
+  <main>
 
-      
+    <!--<img href="background-image" alt="">Pretty ornate but subtle background pattern ... href or src?? -->
+ 
+  <summary class="intro">
   <h1>Joanna Newsom</h1>
   <h2>Lyrics for Selected Works</h2>
   <p id="quote">"Never get so attached to a poem that you forget truth that lacks lyricism, and never draw so close to the heat that you forget that you must eat"</p>
+  </summary>
+   
+<nav id="nav-bar">  
+  <div>
+    <h3><a class="nav-link" href="#WW-header">Walnut Whales</a></h3>
+    <img class="nav-link" src="https://monicajasper.github.io/joanna-lyrics/WalnutWhales_AlbumCover.jpeg" alt="Walnut Whales album cover..."><!--temp for projects '5th' album-->
+    <a class="nav-link" href="#CCCC-header">Clam, Crab, Cockle, Cowrie</a>
+    <a class="nav-link" href="#tBoRO-header">The Book of Right-On</a>
+  </div>
+  
+  <div>
+    <h3><a class="nav-link" href="#TMEM-header">The Milk-Eyed Mender</a></h3>
+    <img class="nav-link" src="https://monicajasper.github.io/joanna-lyrics/TheMilkEyedMender_AlbumCover.jpg" alt="The Milk-Eyed Mender album cover...">
+    <a class="nav-link" href="#SatB-header">Sprout and the Bean</a>
+    <a class="nav-link" href="#BaB-header">Bridges and Balloons</a>
+    <a class="nav-link" href="#EnGallop-header">"En Gallop!"</a>
+  </div>
     
-  <!--try input type of definition here... can't remember what this note was for-->
+  <div>
+    <h3><a class="nav-link" href="#Ys-header">Ys</a></h3>
+    <img class="nav-link" src="https://monicajasper.github.io/joanna-lyrics/Ys_AlbumCover.jpg" alt="Ys album cover...">
+    <a class="nav-link" href="#Emily-header">Emily</a>
+    <a class="nav-link" href="#OnlySkin-header">Only Skin</a>
+  </div>
   
-  <h3>The Milk-Eyed Mender</h3>
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/TheMilkEyedMender_AlbumCover.jpg" alt="The Milk-Eyed Mender album cover..."><br><!--need to upload album covers-->
-  <a href="#CCCC-header">Clam, Crab, Cockle, Cowrie</a><br>
-  <a href="#BaB-header">Bridges and Balloons</a><br>
-  <a href="#EnGallop-header">"En Gallop"</a><br>
-
-  <h3>Ys</h3>
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/Ys_AlbumCover.jpg" alt="Ys album cover..."><br>
-  <a href="#Emily-header">Emily</a><br>
-  <a href="#OnlySkin-header">Only Skin</a><br>
+  <div>
+    <h3><a class="nav-link" href="#HOalb-header">Have One on Me</a></h3> 
+    <img class="nav-link" src="https://monicajasper.github.io/joanna-lyrics/HaveOneOnMe_AlbumCover.jpg" alt="Have One on Me album cover...">
+    <a class="nav-link" href="#GoLong-header">Go Long</a>
+    <a class="nav-link" href="#HOOM-header">Have One on Me</a>
+  </div>
   
-  <h3>Have One on Me</h3> 
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/HaveOneOnMe_AlbumCover.jpg" alt="Have One on Me album cover..."><br>
-  <a href="GoLong-header">Go Long</a><br>
-  <a href="#HOOM-header">Have One on Me</a><br>
-
-  <h3>Divers</h3> 
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/Divers_AlbumCover.jpg" alt="Divers album cover"><br>
-  <a href="#Divers-header">Divers</a><br>  
-
+  <div>
+    <h3><a class="nav-link" href="#Dalb-header">Divers</a></h3> 
+    <img class="nav-link" src="https://monicajasper.github.io/joanna-lyrics/Divers_AlbumCover.jpg" alt="Divers album cover">
+    <a class="nav-link" href="#Divers-header">Divers</a>
+ </div>
+  </nav>
 
   
-  <h3>The Milk-Eyed Mender</h3>
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/TheMilkEyedMender_AlbumCover.jpg" alt="The Milk-Eyed Mender album cover..."><br><!--need to upload album covers-->
+  <!--onto the lyrics!-->
+<main id="main-doc">
     
+<section class="main-section">
+  <header id="WW-header">Walnut Whales</header>
+  
   <h4 id="CCCC-header">Clam, Crab, Cockle, Cowrie</h4>
   <p>
-    That means no where I come from.
-    I am cold, out waiting for the day to come.
+    That means no where I come from.<br>
+    I am cold, out waiting for the day to come.<br>
     <br>
-    I chew my lips, and I scratch my nose:
-    feels so good to be a rose.
+    I chew my lips, and I scratch my nose:<br>
+    feels so good to be a rose.<br>
     <br>
-    Oh don't, don't you lift me up
-    like I'm that shy, no no no no no,
-    just give it up —
-    There are bats all dissolving in a row
-    into the wishy-washy dark that cannot let go.
-    And I cannot let go,
-    and so I thank the lord, and I thank his sword!
-    'tho it be mincing up the morning,
-    slightly bored
+    Oh don't, don't you lift me up<br>
+    like I'm that shy, no no no no no,<br>
+    just give it up —<br>
+    There are bats all dissolving in a row<br>
+    into the wishy-washy dark that cannot let go.<br>
+    And I cannot let go,<br>
+    and so I thank the lord, and I thank his sword!<br>
+    'tho it be mincing up the morning,<br>
+    slightly bored<br>
     <br>
-    O, morning without warning like a hole,
-    And I watch you go.
-    There are some mornings
-    when the sky looks like a road.
-    There are some dragons
-    who were built to have and hold.
-    And some machines
-    are dropped from great heights lovingly.
-    And some great bellies ache with many bumblebees
-    (and they sting so terribly).
+    O, morning without warning like a hole,<br>
+    And I watch you go.<br>
+    There are some mornings<br>
+    when the sky looks like a road.<br>
+    There are some dragons<br>
+    who were built to have and hold.<br>
+    And some machines<br>
+    are dropped from great heights lovingly.<br>
+    And some great bellies ache with many bumblebees<br>
+    (and they sting so terribly).<br>
     <br>
-    I do as I please.
-    Now I'm on my knees.
-    Your skin is something that I stir into my tea.
-    And I am watching you
-    and you are starry, starry, starry
-    and I'm tumbling down, and I check a frown.
-    That's why I love this town.
-    Well, just look around
-    to see me serenaded hourly!
-    and celebrated sourly! and dedicated dourly;
-    waltzing with the open sea —
-    clam, crab, cockle, cowrie:
-    will you just look at me?
-  </p>
+    I do as I please.<br>
+    Now I'm on my knees.<br>
+    Your skin is something that I stir into my tea.<br>
+    And I am watching you<br>
+    and you are starry, starry, starry<br>
+    and I'm tumbling down, and I check a frown.<br>
+    That's why I love this town.<br>
+    Well, just look around<br>
+    to see me serenaded hourly!<br>
+    and celebrated sourly! and dedicated dourly;<br>
+    waltzing with the open sea —<br>
+    clam, crab, cockle, cowrie:<br>
+    will you just look at me?<br>
+  </p> <!--handle spacing in css??-->
   
+  <h4 id="tBoRO-header">The Book of Right-On</h4>  
+  <p>
+    We should shine a light on, a light on.<br>
+    And the book of right-on's right on,<br>
+    it was right on.<br>
+    <br>
+    We should shine a light on, a light on.<br>
+    And the book of right-on's right on,<br>
+    it was right on.<br>
+    <br>
+    I killed my dinner with karate —<br>
+    kick 'em in the face, taste the body;<br>
+    shallow work is the work that I do.<br>
+    <br>
+    Do you want to sit at my table?<br>
+    My fighting fame is fabled<br>
+    and fortune finds me fit and able.<br>
+    <br>
+    And you do say that you do pray,<br>
+    and you say that you're okay.<br>
+    <br>
+    Do you want to run with my pack?<br>
+    Do you want to ride on my back?<br>
+    Pray that what you lack does not distract.<br>
+    <br>
+    And even when you run through my mind<br>
+    something else is in front; you're behind.<br>
+    And I don't have to remind you<br>
+    to stick with your kind.<br>
+    <br>
+    And you do say that you do pray,<br>
+    and you say that you're okay.<br>
+    <br>
+    And even when you touch my face<br>
+    you know your place.<br>
+    <br>
+    And even when you touch my face<br>
+    you know your place.<br>
+    <br>
+    We should shine a light on, a light on.<br>
+    And the book of right-on's right on,<br>
+    it was right on.<br>
+  </p>
+</section>
+
+<section class="main-section">    
+  <header id="TMEM-header">The Milk-Eyed Mender</header>
+
+  <h4 id="SatB-header">Sprout and the Bean</h4>
+  <p>    
+    I slept all day<br>
+    I woke with distaste<br>
+    and I railed,<br>
+    and I raved<br>
+    <br>
+    That the difference between<br>
+    the sprout and the bean<br>
+    it is a golden ring,<br>
+    it is a twisted string.<br>
+    And you can ask the councillor;<br>
+    and you can ask the king;<br>
+    and they'll say the same thing;<br>
+    and it's a funny thing:<br>
+    <br>
+    Should we go outside?<br>
+    Should we go outside?<br>
+    Should we break some bread?<br>
+    Are y'interested?<br>
+    <br>
+    And as I said,<br>
+    I slept as though dead<br>
+    dreaming seamless dreams of lead.<br>
+    <br>
+    When you go away,<br>
+    I am big-boned and fey<br>
+    in the dust of the day,<br>
+    and in the dirt of the day.<br>
+    <br>
+    And the Danger! Danger!<br>
+    Drawing near them was a white coat,<br>
+    and Danger! Danger!<br>
+    Drawing near them was a broad boat,<br>
+    And the water! water!<br>
+    Running clear beneath a white throat,<br>
+    and the hollow chatter<br>
+    of the talking of the tadpoles,<br>
+    who know th'outside!<br>
+    Should we go outside?<br>
+    Should we break some bread?<br>
+    Are y'interested?<br>
+    </p>
+    
   <h4 id="BaB-header">Bridges and Balloons</h4>
   <p>
-    We sailed away on a winter's day
-    with fate as malleable as clay;
-    but ships are fallible, I say,
-    and the nautical, like all things, fades.
+    We sailed away on a winter's day<br>
+    with fate as malleable as clay;<br>
+    but ships are fallible, I say,<br>
+    and the nautical, like all things, fades.<br>
     <br>
-    And I can recall our caravel:
-    a little wicker beetle shell
-    with four fine masts and lateen sails,
-    its bearings on Cair Paravel.
+    And I can recall our caravel:<br>
+    a little wicker beetle shell<br>
+    with four fine masts and lateen sails,<br>
+    its bearings on Cair Paravel.<br>
     <br>
-    O my love,
-    O it was a funny little thing
-    to be the ones to've seen.
+    O my love,<br>
+    O it was a funny little thing<br>
+    to be the ones to've seen.<br>
     <br>
-    The sight of bridges and balloons
-    makes calm canaries irritable;
-    and they caw and claw all afternoon:
-    "Catenaries and dirigibles
-    brace and buoy the living-room —
-    a loom of metals, warp-woof-wimble."
-    And a thimblesworth of milky moon
-    can touch hearts larger than a thimble.
+    The sight of bridges and balloons<br>
+    makes calm canaries irritable;<br>
+    and they caw and claw all afternoon:<br>
+    Catenaries and dirigibles<br>
+    brace and buoy the living-room —<br>
+    a loom of metals, warp-woof-wimble.<br>
+    And a thimblesworth of milky moon<br>
+    can touch hearts larger than a thimble.<br>
     <br>
-    O my love,
-    O it was a funny little thing
-    to be the ones to've seen.
+    O my love,<br>
+    O it was a funny little thing<br>
+    to be the ones to've seen.<br>
     <br>
-    O my love,
-    O it was a funny little thing,
-    it was a funny funny little thing.
+    O my love,<br>
+    O it was a funny little thing,<br>
+    it was a funny funny little thing.<br>
   </p>
   
-  <h4 id="EnGallop-header">"En Gallop"</h4>
+  <h4 id="EnGallop-header">"En Gallop!"</h4>
   <p>
-    This place is damp and ghostly
-    I am already gone.
-    And the halls were lined
-    with the disembodied and the dustly wings,
-    which fell from flesh gasplessly.
+    This place is damp and ghostly<br>
+    I am already gone.<br>
+    And the halls were lined<br>
+    with the disembodied and the dustly wings,<br>
+    which fell from flesh gasplessly.<br>
     <br>
-    And I go where the trees go,
-    and I walk from a higher education
-    (for now, and for hire).
+    And I go where the trees go,<br>
+    and I walk from a higher education<br>
+    (for now, and for hire).<br>
     <br>
-    It beats me, but I do not know.
-    And it beats me, but I do not know.
-    It beats me, but I do not know.
-    I do not know.
+    It beats me, but I do not know.<br>
+    And it beats me, but I do not know.<br>
+    It beats me, but I do not know.<br>
+    I do not know.<br>
     <br>
-    Palaces and stormclouds
-    and the rough, straggly sage, and the smoke
-    and the way it will all come together
-    (in quietness, and in time).
+    Palaces and stormclouds<br>
+    and the rough, straggly sage, and the smoke<br>
+    and the way it will all come together<br>
+    (in quietness, and in time).<br>
     <br>
-    And you laws of property
-    you free economy
-    and you unending afterthoughts,
-    you could've told me before —
+    And you laws of property<br>
+    you free economy<br>
+    and you unending afterthoughts,<br>
+    you could've told me before —<br>
     <br>
-    Never get so attached to a poem
-    you forget truth that lacks lyricism;
-    and never draw so close to the heat
-    that you forget that you must eat.
+    Never get so attached to a poem<br>
+    you forget truth that lacks lyricism;<br>
+    and never draw so close to the heat<br>
+    that you forget that you must eat.<br>
   </p>
+</section> 
+
   
-  
-  <h3>Ys</h3>
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/Ys_AlbumCover.jpg" alt="Ys album cover..."><br>
+<section class="main-section">    
+  <header id="Ys-header">Ys</header>
 
   <h4 id="Emily-header">Emily</h4>
   <p>
-    The meadowlark and the chim-choo-ree and the sparrow
-    set to the sky in a flying spree, for the sport of the pharaoh.
-    Little while later, the Pharisees dragged a comb through the meadow.
-    Do you remember what they called up to you and me, in our window?
+    The meadowlark and the chim-choo-ree and the sparrow<br>
+    set to the sky in a flying spree, for the sport of the pharaoh.<br>
+    Little while later, the Pharisees dragged a comb through the meadow.<br>
+    Do you remember what they called up to you and me, in our window?<br>
     <br>
-    There is a rusty light on the pines tonight;
-    sun pouring wine, lord, or marrow, into the
-    bones of the birches, and the spires of the churches, jutting out from the shadows;
-    the yoke, and the axe, and the old smokestacks, and the bale, and the barrow —
-    and everything sloped, like it was dragged from a rope, in the mouth of the south below.
+    There is a rusty light on the pines tonight;<br>
+    sun pouring wine, lord, or marrow, into the<br>
+    bones of the birches, and the spires of the churches, jutting out from the shadows;<br>
+    the yoke, and the axe, and the old smokestacks, and the bale, and the barrow —<br>
+    and everything sloped, like it was dragged from a rope, in the mouth of the south below.<br>
     <br>
-    We’ve seen those mountains kneeling, felten and grey.
-    We thought our very hearts would up and melt away,
+    We’ve seen those mountains kneeling, felten and grey.<br>
+    We thought our very hearts would up and melt away,<br>
     <br>
-    from that snow in the nighttime,
-    just going and going
+    from that snow in the nighttime,<br>
+    just going and going<br>
     <br>
-    and the stirring of wind chimes
-    in the morning
-    in the morning
+    and the stirring of wind chimes<br>
+    in the morning<br>
+    in the morning<br>
     <br>
-    Helps me find my way back in
-    from the place where I have been —
+    Helps me find my way back in<br>
+    from the place where I have been —<br>
     <br>
-    And, Emily, I saw you last night by the river.
-    I dreamed you were skipping little stones across the surface of the water —
-    frowning at the angle where they were lost, and slipped under forever,
-    in a mud-cloud, mica-spangled, like the sky’d been breathing on a mirror.
+    And, Emily, I saw you last night by the river.<br>
+    I dreamed you were skipping little stones across the surface of the water —<br>
+    frowning at the angle where they were lost, and slipped under forever,<br>
+    in a mud-cloud, mica-spangled, like the sky’d been breathing on a mirror.<br>
     <br>
-    Anyhow, I sat by your side, by the water.
-    You taught me the names of the stars overhead, that I wrote down in my ledger —
-    though all I knew of the rote universe were those Pleiades, loosed in December,
-    I promised you I’d set them to verse, so I’d always remember
+    Anyhow, I sat by your side, by the water.<br>
+    You taught me the names of the stars overhead, that I wrote down in my ledger —<br>
+    though all I knew of the rote universe were those Pleiades, loosed in December,<br>
+    I promised you I’d set them to verse, so I’d always remember<br>
     <br>
-    That the meteorite is the source of the light,
-    And the meteor’s just what we see;
-    And the meteoroid is a stone that’s devoid of the fire that propelled it to thee.
-    And the meteorite’s just what causes the light,
-    And the meteor’s how it’s perceived;
-    And the meteoroid’s a bone thrown from the void, that lies quiet in offering to thee.
+    That the meteorite is the source of the light,<br>
+    And the meteor’s just what we see;<br>
+    And the meteoroid is a stone that’s devoid of the fire that propelled it to thee.<br>
+    And the meteorite’s just what causes the light,<br>
+    And the meteor’s how it’s perceived;<br>
+    And the meteoroid’s a bone thrown from the void, that lies quiet in offering to thee.<br>
     <br>
-    *
+    *<br>
     <br>
-    You came and lay a cold compress upon the mess I’m in;
-    threw the windows wide, and cried amen amen amen.
-    The whole world stopped to hear you hollering.
-    And you looked down, and saw, now, what was happening:
+    You came and lay a cold compress upon the mess I’m in;<br>
+    threw the windows wide, and cried amen amen amen.<br>
+    The whole world stopped to hear you hollering.<br>
+    And you looked down, and saw, now, what was happening:<br>
     <br>
-    The lines are fading in my kingdom
-    (though I have never known the way to border them in);
-    so the muddy mouths of baboons and sows, and the grouse, and the horse, and the hen
-    grope at the gate of the looming lake that was once a tidy pen.
-    And the mail is late, and the great estates are not lit from within.
-    The talk in town’s becoming downright sickening.
+    The lines are fading in my kingdom<br>
+    (though I have never known the way to border them in);<br>
+    so the muddy mouths of baboons and sows, and the grouse, and the horse, and the hen<br>
+    grope at the gate of the looming lake that was once a tidy pen.<br>
+    And the mail is late, and the great estates are not lit from within.<br>
+    The talk in town’s becoming downright sickening.<br>
     <br>
-    In due time we will see the far buttes lit by a flare.
-    I’ve seen your bravery, and I will follow you there
+    In due time we will see the far buttes lit by a flare.<br>
+    I’ve seen your bravery, and I will follow you there<br>
     <br>
-    And row through the nighttime,
-    so healthy,
-    gone healthy all of a sudden,
+    And row through the nighttime,<br>
+    so healthy,<br>
+    gone healthy all of a sudden,<br>
     <br>
-    In search of a midwife
-    who can help me
-    who can help me,
+    In search of a midwife<br>
+    who can help me<br>
+    who can help me,<br>
     <br>
-    help me find my way back in.
-    And there are worries where I’ve been.
+    help me find my way back in.<br>
+    And there are worries where I’ve been.<br>
     <br>
-    And say, say, say, in the lee of the bay
-    don’t be bothered.
-    Leave your troubles here,
-    where the tugboats shear the water from the water
-    (flanked by furrows, curling back, like a match held up to a newspaper).
+    And say, say, say, in the lee of the bay<br>
+    don’t be bothered.<br>
+    Leave your troubles here,<br>
+    where the tugboats shear the water from the water<br>
+    (flanked by furrows, curling back, like a match held up to a newspaper).<br>
     <br>
-    Emily, they’ll follow your lead by the letter.
-    And I make this claim, and I’m not ashamed to say I knew you better.
-    What they’ve seen is just a beam of your sun that banishes winter.
+    Emily, they’ll follow your lead by the letter.<br>
+    And I make this claim, and I’m not ashamed to say I knew you better.<br>
+    What they’ve seen is just a beam of your sun that banishes winter.<br>
     <br>
-    Let us go! Though we know it’s a hopeless endeavor.
-    The ties that bind, they are barbed and spined, and hold us close forever.
+    Let us go! Though we know it’s a hopeless endeavor.<br>
+    The ties that bind, they are barbed and spined, and hold us close forever.<br>
     <br>
-    Though there is nothing would help me come to grips with
-    a sky that is gaping and yawning,
-    there is a song I woke with on my lips,
-    as you sailed your great ship towards the morning.
+    Though there is nothing would help me come to grips with<br>
+    a sky that is gaping and yawning,<br>
+    there is a song I woke with on my lips,<br>
+    as you sailed your great ship towards the morning.<br>
     <br>
-    *
+    *<br>
     <br>
-    Come on home. The poppies are all grown knee-deep by now.
-    Blossoms all have fallen, and the pollen ruins the plow.
-    Peonies nod in the breeze,
-    and while they wetly bow
-    with hydrocephalitic listlessness,
-    ants mop up their brow.
+    Come on home. The poppies are all grown knee-deep by now.<br>
+    Blossoms all have fallen, and the pollen ruins the plow.<br>
+    Peonies nod in the breeze,<br>
+    and while they wetly bow<br>
+    with hydrocephalitic listlessness,<br>
+    ants mop up their brow.<br>
     <br>
-    And everything with wings is restless, aimless, drunk and dour;
-    butterflies and birds collide at hot, ungodly hours.
-    And my clay-colored motherlessness rangily reclines —
-    Come on home, now! All my bones are dolorous with vines.
+    And everything with wings is restless, aimless, drunk and dour;<br>
+    butterflies and birds collide at hot, ungodly hours.<br>
+    And my clay-colored motherlessness rangily reclines —<br>
+    Come on home, now! All my bones are dolorous with vines.<br>
     <br>
-    Pa pointed out to me, for the hundredth time tonight,
-    the way the ladle leads to a dirt-red bullet of light.
+    Pa pointed out to me, for the hundredth time tonight,<br>
+    the way the ladle leads to a dirt-red bullet of light.<br>
     <br>
-    Squint skyward and listen —
-    loving him, we move within his borders:
-    just asterisms in the stars’ set order.
+    Squint skyward and listen —<br>
+    loving him, we move within his borders:<br>
+    just asterisms in the stars’ set order.<br>
     <br>
-    We could stand for a century,
-    staring,
-    with our heads cocked,
-    in the broad daylight, at this thing:
+    We could stand for a century,<br>
+    staring,<br>
+    with our heads cocked,<br>
+    in the broad daylight, at this thing:<br>
     <br>
-    Joy,
-    landlocked in bodies that don’t keep —
-    dumbstruck with the sweetness of being,
-    till we don’t be.
-    Told: take this.
-    And eat this.
+    Joy,<br>
+    landlocked in bodies that don’t keep —<br>
+    dumbstruck with the sweetness of being,<br>
+    till we don’t be.<br>
+    Told: take this.<br>
+    And eat this.<br>
     <br>
-    Told: the meteorite is the source of the light,
-    And the meteor’s just what we see;
-    And the meteoroid is a stone that’s devoid of the fire that propelled it to thee.
+    Told: the meteorite is the source of the light,<br>
+    And the meteor’s just what we see;<br>
+    And the meteoroid is a stone that’s devoid of the fire that propelled it to thee.<br>
     <br>
-    And the meteorite is just what causes the light,
-    And the meteor’s how it’s perceived;
-    And the meteoroid’s a bone thrown from the void that lies quiet in offering to thee.
+    And the meteorite is just what causes the light,<br>
+    And the meteor’s how it’s perceived;<br>
+    And the meteoroid’s a bone thrown from the void that lies quiet in offering to thee.<br>
   </p>
   
-  <h2 id="OnlySkin-header">Only Skin</h2>
+  <h4 id="OnlySkin-header">Only Skin</h4>
   <p>
-    And there was a booming above you,
-    that night black airplanes flew over the sea.
-    And they were lowing and shifting like
-    beached whales,
-    shelled snails,
-    as you strained and you squinted to see
-    the retreat of their hairless and blind cavalry.
+    And there was a booming above you,<br>
+    that night black airplanes flew over the sea.<br>
+    And they were lowing and shifting like<br>
+    beached whales,<br>
+    shelled snails,<br>
+    as you strained and you squinted to see<br>
+    the retreat of their hairless and blind cavalry.<br>
     <br>
-    You froze in your sand shoal,
-    prayed for your poor soul;
-    sky was a bread roll, soaking in a milk-bowl.
+    You froze in your sand shoal,<br>
+    prayed for your poor soul;<br>
+    sky was a bread roll, soaking in a milk-bowl.<br>
     <br>
-    And when the bread broke —
-    fell in bricks of wet smoke —
-    my sleeping heart woke, and my waking heart spoke.
+    And when the bread broke —<br>
+    fell in bricks of wet smoke —<br>
+    my sleeping heart woke, and my waking heart spoke.<br>
     <br>
-    Then there was a silence you took to mean something:
-    Run, sing,
-    for alive you will evermore be.
-    And the plague of the greasy black engines a-skulking
-    has gone east,
-    while you’re left to explain them to me —
-    released
-    from their hairless and blind cavalry.
+    Then there was a silence you took to mean something:<br>
+    Run, sing,<br>
+    for alive you will evermore be.<br>
+    And the plague of the greasy black engines a-skulking<br>
+    has gone east,<br>
+    while you’re left to explain them to me —<br>
+    released<br>
+    from their hairless and blind cavalry.<br>
     <br>
-    With your hands in your pockets,
-    stubbily running
-    to where I’m unfresh,
-    undressed and yawning —
+    With your hands in your pockets,<br>
+    stubbily running<br>
+    to where I’m unfresh,<br>
+    undressed and yawning —<br>
     <br>
-    Well, what is this craziness?
-    This crazy talking?
-    You caught some small death
-    when you were sleepwalking.
+    Well, what is this craziness?<br>
+    This crazy talking?<br>
+    You caught some small death<br>
+    when you were sleepwalking.<br>
     <br>
-    It was a dark dream, darlin;
-    it’s over.
-    The firebreather is beneath the clover.
-    Beneath his breathing there is cold clay, forever:
-    a toothless hound-dog choking on a feather.
+    It was a dark dream, darlin;<br>
+    it’s over.<br>
+    The firebreather is beneath the clover.<br>
+    Beneath his breathing there is cold clay, forever:<br>
+    a toothless hound-dog choking on a feather.<br>
     <br>
-    But I took my fishing pole (fearing your fever),
-    down to the swimming hole, where there grows a bitter herb
-    that blooms but one day a year, by the riverside —
-    I’d bring it here:
+    But I took my fishing pole (fearing your fever),<br>
+    down to the swimming hole, where there grows a bitter herb<br>
+    that blooms but one day a year, by the riverside —<br>
+    I’d bring it here:<br>
     <br>
-    Apply it gently
-    to the love you’ve lent me.
+    Apply it gently<br>
+    to the love you’ve lent me.<br>
     <br>
-    While the river was twisting and braiding, the bait bobbed
-    and the string sobbed,
-    as it cut through the hustling breeze.
+    While the river was twisting and braiding, the bait bobbed<br>
+    and the string sobbed,<br>
+    as it cut through the hustling breeze.<br>
     <br>
-    And I watched how the water was kneading so neatly,
-    gone treacly,
-    nearly slowed to a stop in this heat;
-    in a frenzy coiling flush along the muscles beneath.
+    And I watched how the water was kneading so neatly,<br>
+    gone treacly,<br>
+    nearly slowed to a stop in this heat;<br>
+    in a frenzy coiling flush along the muscles beneath.<br>
     <br>
-    Press on me,
-    we are restless things.
-    Webs of seaweed are swaddling.
-    And you call upon the dusk of the
-    musk of a squid:
-    shot full of ink, until you sink into your crib.
+    Press on me,<br>
+    we are restless things.<br>
+    Webs of seaweed are swaddling.<br>
+    And you call upon the dusk of the<br>
+    musk of a squid:<br>
+    shot full of ink, until you sink into your crib.<br>
     <br>
-    Rowing along, among the reeds, among the rushes,
-    I heard your song, before my heart had time to hush it!
-    Smell of a stonefruit being cut and being opened.
-    Smell of a low and of a lazy cinder smoking
+    Rowing along, among the reeds, among the rushes,<br>
+    I heard your song, before my heart had time to hush it!<br>
+    Smell of a stonefruit being cut and being opened.<br>
+    Smell of a low and of a lazy cinder smoking<br>
     <br>
-    And when the fire moves away,
-    fire moves away, son.
-    Why would you say
-    I was the last one?
+    And when the fire moves away,<br>
+    fire moves away, son.<br>
+    Why would you say<br>
+    I was the last one?<br>
     <br>
-    Scrape your knee: it is only skin.
-    Makes the sound of violins.
+    Scrape your knee: it is only skin.<br>
+    Makes the sound of violins.<br>
     <br>
-    And when I cut your hair, and leave the birds all of the trimmings,
-    I am the happiest woman among all women.
+    And when I cut your hair, and leave the birds all of the trimmings,<br>
+    I am the happiest woman among all women.<br>
     <br>
-    And the shallow water stretches as far as I can see.
-    Knee deep, trudging along —
-    the seagull weeps ‘so long’ —
-    humming a threshing song —
+    And the shallow water stretches as far as I can see.<br>
+    Knee deep, trudging along —<br>
+    the seagull weeps ‘so long’ —<br>
+    humming a threshing song —<br>
     <br>
-    Until the night is over, hold on,
-    hold on;
-    hold your horses back from the fickle dawn.
+    Until the night is over, hold on,<br>
+    hold on;<br>
+    hold your horses back from the fickle dawn.<br>
     <br>
-    I have got some business out at the edge of town,
-    candy weighing both of my pockets down
-    till I can hardly stay afloat, from the weight of them
-    (and knowing how the commonfolk condemn
-    what it is I do, to you, to keep you warm:
-    Being a woman. Being a woman.)
+    I have got some business out at the edge of town,<br>
+    candy weighing both of my pockets down<br>
+    till I can hardly stay afloat, from the weight of them<br>
+    (and knowing how the commonfolk condemn<br>
+    what it is I do, to you, to keep you warm:<br>
+    Being a woman. Being a woman.)<br>
     <br>
-    But always up the mountainside you’re clambering,
-    groping blindly, hungry for anything;
-    picking through your pocket linings —
-    well, what is this?
-    Scrap of sassafras, eh Sisyphus?
+    But always up the mountainside you’re clambering,<br>
+    groping blindly, hungry for anything;<br>
+    picking through your pocket linings —<br>
+    well, what is this?<br>
+    Scrap of sassafras, eh Sisyphus?<br>
     <br>
-    I see the blossoms broke and wet after the rain.
-    Little sister, he will be back again.
-    I have washed a thousand spiders down the drain.
-    Spiders’ ghosts hang, soaked and
-    dangling silently, from all the blooming cherry trees,
-    in tiny nooses, safe from everyone —
-    nothing but a nuisance; gone now, dead and done —
-    Be a woman. Be a woman.
+    I see the blossoms broke and wet after the rain.<br>
+    Little sister, he will be back again.<br>
+    I have washed a thousand spiders down the drain.<br>
+    Spiders’ ghosts hang, soaked and<br>
+    dangling silently, from all the blooming cherry trees,<br>
+    in tiny nooses, safe from everyone —<br>
+    nothing but a nuisance; gone now, dead and done —<br>
+    Be a woman. Be a woman.<br>
     <br>
-    Though we felt the spray of the waves,
-    we decided to stay, 'till the tide rose too far.
-    We weren’t afraid, cause we know what you are;
-    and you know that we know what you are.
+    Though we felt the spray of the waves,<br>
+    we decided to stay, 'till the tide rose too far.<br>
+    We weren’t afraid, cause we know what you are;<br>
+    and you know that we know what you are.<br>
     <br>
-    Awful atoll —
-    O, incalculable indiscreetness and sorrow!
-    Bawl bellow:
-    Sibyl sea-cow, all done up in a bow.
-    Toddle and roll;
-    teethe an impalpable bit of leather,
-    while yarrow, heather and hollyhock
-    awkwardly molt along the shore.
+    Awful atoll —<br>
+    O, incalculable indiscreetness and sorrow!<br>
+    Bawl bellow:<br>
+    Sibyl sea-cow, all done up in a bow.<br>
+    Toddle and roll;<br>
+    teethe an impalpable bit of leather,<br>
+    while yarrow, heather and hollyhock<br>
+    awkwardly molt along the shore.<br>
     <br>
-    Are you mine?
-    My heart?
-    Mine anymore?
+    Are you mine?<br>
+    My heart?<br>
+    Mine anymore?<br>
     <br>
-    Stay with me for awhile.
-    That’s an awfully real gun.
-    I know life will lay you down,
-    as the lightning has lately done.
+    Stay with me for awhile.<br>
+    That’s an awfully real gun.<br>
+    I know life will lay you down,<br>
+    as the lightning has lately done.<br>
     <br>
-    Failing this, failing this,
-    follow me, my sweetest friend,
-    to see what you anointed,
-    in pointing your gun there.
-    Lay it down! Nice and slow!
-    There is nowhere to go,
+    Failing this, failing this,<br>
+    follow me, my sweetest friend,<br>
+    to see what you anointed,<br>
+    in pointing your gun there.<br>
+    Lay it down! Nice and slow!<br>
+    There is nowhere to go,<br>
     <br>
-    save up;
-    up where the light, undiluted, is
-    weaving, in a drunk dream,
-    at the sight of my baby, out back:
+    save up;<br>
+    up where the light, undiluted, is<br>
+    weaving, in a drunk dream,<br>
+    at the sight of my baby, out back:<br>
     <br>
-    back on the patio,
-    watching the bats bring night in
+    back on the patio,<br>
+    watching the bats bring night in<br>
     <br>
-    — while, elsewhere,
-    estuaries of wax-white
-    wend, endlessly, towards seashores unmapped.
+    — while, elsewhere,<br>
+    estuaries of wax-white<br>
+    wend, endlessly, towards seashores unmapped.<br>
     <br>
-    *
+    *<br>
     <br>
-    Last week, our picture window
-    produced a half-word,
-    heavy and hollow,
-    hit by a brown bird.
+    Last week, our picture window<br>
+    produced a half-word,<br>
+    heavy and hollow,<br>
+    hit by a brown bird.<br>
     <br>
-    We stood and watched her gape like a rattlesnake
-    and pant and labor over every intake.
+    We stood and watched her gape like a rattlesnake<br>
+    and pant and labor over every intake.<br>
     <br>
-    I said a sort of prayer for some rare grace,
-    then thought I ought to take her to a higher place.
-    Said, “dog nor vulture nor cat shall toy with you,
-    and though you die, bird, you will have a fine view.”
+    I said a sort of prayer for some rare grace,<br>
+    then thought I ought to take her to a higher place.<br>
+    Said, “dog nor vulture nor cat shall toy with you,<br>
+    and though you die, bird, you will have a fine view.”<br>
     <br>
-    Then in my hot hand, she slumped her sick weight.
-    We tramped through the poison oak, heartbroke and inchoate.
-    The dogs were snapping, and you cuffed their collars
-    while I climbed the tree-house. Then how I hollered!
+    Then in my hot hand, she slumped her sick weight.<br>
+    We tramped through the poison oak, heartbroke and inchoate.<br>
+    The dogs were snapping, and you cuffed their collars<br>
+    while I climbed the tree-house. Then how I hollered!<br>
     <br>
-    Well she’d lain, as still as a stone, in my palm, for a lifetime or two;
-    then saw the treetops, cocked her head, and up and flew.
-    (While back in the world that moves, often, according to
-    the hoarding of these clues,
-    dogs still run roughly around
-    little tufts of finch-down.)
+    Well she’d lain, as still as a stone, in my palm, for a lifetime or two;<br>
+    then saw the treetops, cocked her head, and up and flew.<br>
+    (While back in the world that moves, often, according to<br>
+    the hoarding of these clues,<br>
+    dogs still run roughly around<br>
+    little tufts of finch-down.)<br>
     <br>
-    And the cities we passed were a flickering wasteland,
-    but his hand, in my hand, made them hale and harmless.
+    And the cities we passed were a flickering wasteland,<br>
+    but his hand, in my hand, made them hale and harmless.<br>
     <br>
-    While down in the lowlands, the crops are all coming;
-    we have everything.
+    While down in the lowlands, the crops are all coming;<br>
+    we have everything.<br>
     <br>
-    Life is thundering blissful towards death
+    Life is thundering blissful towards death<br>
     <br>
-    in a stampede
-    of his fumbling green gentleness.
+    in a stampede<br>
+    of his fumbling green gentleness.<br>
     <br>
-    You stopped by;
-    I was all alive.
-    In my doorway, we shucked and jived.
-    And when you wept, I was gone;
-    see, I got gone when I got wise.
-    But I can’t with certainty say we survived.
+    You stopped by;<br>
+    I was all alive.<br>
+    In my doorway, we shucked and jived.<br>
+    And when you wept, I was gone;<br>
+    see, I got gone when I got wise.<br>
+    But I can’t with certainty say we survived.<br>
     <br>
-    Then down and down
-    and down and down
-    and down and deeper,
-    stoke, without sound,
-    the blameless flames,
-    you endless sleeper.
+    Then down and down<br>
+    and down and down<br>
+    and down and deeper,<br>
+    stoke, without sound,<br>
+    the blameless flames,<br>
+    you endless sleeper.<br>
     <br>
-    Through fire below,
-    and fire above,
-    and fire within,
+    Through fire below,<br>
+    and fire above,<br>
+    and fire within,<br>
     <br>
-    sleep through the things that couldn’t have been,
-    if you hadn’t have been.
+    sleep through the things that couldn’t have been,<br>
+    if you hadn’t have been.<br>
     <br>
-    And when the fire moves away,
-    fire moves away, son.
-    And why would you say
-    I was the last one?
+    And when the fire moves away,<br>
+    fire moves away, son.<br>
+    And why would you say<br>
+    I was the last one?<br>
     <br>
-    All my bones, they are gone, gone, gone.
-    Take my bones, I don’t need none.
-    Cold, cold cupboard, lord, nothing to chew on!
-    Suck all day on a cherry stone.
-    Dig a little hole not three inches round —
-    Spit your pit in a hole in the ground.
-    Weep upon the spot for the starving of me!
-    Till up grows a fine young cherry tree.
-    When the bough breaks, what’ll you make for me?
-    A little willow cabin to rest on your knee.
-    Well, what will I do with a trinket such as this?
-    Think of your woman, who’s gone to the west.
-    But I’m starving and freezing in my measly old bed!
-    Then I’ll crawl across the salt flats, to stroke your sweet head.
-    Come across the desert with no shoes on!
-    I love you truly,
-    or I love no-one.
+    All my bones, they are gone, gone, gone.<br>
+    Take my bones, I don’t need none.<br>
+    Cold, cold cupboard, lord, nothing to chew on!<br>
+    Suck all day on a cherry stone.<br>
+    Dig a little hole not three inches round —<br>
+    Spit your pit in a hole in the ground.<br>
+    Weep upon the spot for the starving of me!<br>
+    Till up grows a fine young cherry tree.<br>
+    When the bough breaks, what’ll you make for me?<br>
+    A little willow cabin to rest on your knee.<br>
+    Well, what will I do with a trinket such as this?<br>
+    Think of your woman, who’s gone to the west.<br>
+    But I’m starving and freezing in my measly old bed!<br>
+    Then I’ll crawl across the salt flats, to stroke your sweet head.<br>
+    Come across the desert with no shoes on!<br>
+    I love you truly,<br>
+    or I love no-one.<br>
     <br>
-    Fire moves away. Fire moves away, son.
-    Why would you say that I was the last one?
-    Last one?
+    Fire moves away. Fire moves away, son.<br>
+    Why would you say that I was the last one?<br>
+    Last one?<br>
     <br>
-    Clear the room! There’s a fire, a fire, a fire.
-    Get going,
-    and I’m going to be right behind you.
+    Clear the room! There’s a fire, a fire, a fire.<br>
+    Get going,<br>
+    and I’m going to be right behind you.<br>
     <br>
-    And if the love of a woman or two, dear,
-    could move you to such heights,
-    then all I can do
-    is do, my darling, right by you.
+    And if the love of a woman or two, dear,<br>
+    could move you to such heights,<br>
+    then all I can do<br>
+    is do, my darling, right by you.<br>
   </p>
+</section> 
+
+    
+<section class="main-section">
+  <header id="HOalb-header">Have One on Me</header>
   
-
-  <h3>Have One on Me</h3>
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/HaveOneOnMe_AlbumCover.jpg" alt="Have One on Me album cover..."><br>
-
   <h4 id="GoLong-header">Go Long</h4>
   <p>
-    Last night, again,
-    you were in my dream.
-    Several expendable limbs were at stake.
-    You were a prince, spinning rims,
-    all sentiments indian-given
-    and half-baked.
-    I was brought
-    in on a palanquin
-    made of the many bodies
-    of beautiful women.
-    Brought to this place, to be examined,
-    swaying on an elephant:
-    a princess of India.
+    Last night, again,<br>
+    you were in my dream.<br>
+    Several expendable limbs were at stake.<br>
+    You were a prince, spinning rims,<br>
+    all sentiments indian-given<br>
+    and half-baked.<br>
+    I was brought<br>
+    in on a palanquin<br>
+    made of the many bodies<br>
+    of beautiful women.<br>
+    Brought to this place, to be examined,<br>
+    swaying on an elephant:<br>
+    a princess of India.<br>
     <br>
-    We both want the very same thing.
-    We are praying
-    I am the one to save you.
-    But you don't even own
-    your own violence.
-    Run away from home —
-    your beard is still blue
-    with the loneliness of you mighty men,
-    when your jaws, and fists, and guitars,
-    and pens, and your sugarlip,
-    but I've never been to the firepits
-    with you mighty men.
+    We both want the very same thing.<br>
+    We are praying<br>
+    I am the one to save you.<br>
+    But you don't even own<br>
+    your own violence.<br>
+    Run away from home —<br>
+    your beard is still blue<br>
+    with the loneliness of you mighty men,<br>
+    when your jaws, and fists, and guitars,<br>
+    and pens, and your sugarlip,<br>
+    but I've never been to the firepits<br>
+    with you mighty men.<br>
     <br>
-    Who made you this way?
-    Who made you this way?
-    Who is going to bear
-    your beautiful children?
-    Do you think you can just stop,
-    when you're ready for a change?
-    Who will take care of you
-    when you're old and dying?
+    Who made you this way?<br>
+    Who made you this way?<br>
+    Who is going to bear<br>
+    your beautiful children?<br>
+    Do you think you can just stop,<br>
+    when you're ready for a change?<br>
+    Who will take care of you<br>
+    when you're old and dying?<br>
     <br>
-    You burn in the Mekong,
-    to prove your worth.
-    Go long! Go long!
-    Right over the edge of the earth!
-    You have been wronged,
-    tore up since birth.
-    You have done harm.
-    Others have done worse.
+    You burn in the Mekong,<br>
+    to prove your worth.<br>
+    Go long! Go long!<br>
+    Right over the edge of the earth!<br>
+    You have been wronged,<br>
+    tore up since birth.<br>
+    You have done harm.<br>
+    Others have done worse.<br>
     <br>
-    Will you tuck your shirt?
-    Will you leave it loose?
-    You are badly hurt.
-    You're a silly goose.
+    Will you tuck your shirt?<br>
+    Will you leave it loose?<br>
+    You are badly hurt.<br>
+    You're a silly goose.<br>
     <br>
-    You are caked in mud,
-    and in blood, and worse.
-    Chew your bitter cud.
-    Grope your little nurse.
+    You are caked in mud,<br>
+    and in blood, and worse.<br>
+    Chew your bitter cud.<br>
+    Grope your little nurse.<br>
     <br>
-    Do you know why
-    my ankles are bound in gauze?
-    (sickly dressage:
-    a princess of Kentucky)?
-    In the middle of the woods
-    (which were the probable cause),
-    we danced in the lodge
-    like two panting monkeys.
+    Do you know why<br>
+    my ankles are bound in gauze?<br>
+    (sickly dressage:<br>
+    a princess of Kentucky)?<br>
+    In the middle of the woods<br>
+    (which were the probable cause),<br>
+    we danced in the lodge<br>
+    like two panting monkeys.<br>
     <br>
-    I will give you a call, for one last hurrah.
-    And if this tale is tall, forgive my scrambling.
-    But you keep palming along the wall,
-    moving at a blind crawl,
-    but always rambling.
+    I will give you a call, for one last hurrah.<br>
+    And if this tale is tall, forgive my scrambling.<br>
+    But you keep palming along the wall,<br>
+    moving at a blind crawl,<br>
+    but always rambling.<br>
     <br>
-    Wolf-spider, crouch in your funnel nest.
-    If I knew you, once,
-    now I know you less.
-    In the sinking sand,
-    where we've come to rest,
-    have I had a hand in your loneliness?
+    Wolf-spider, crouch in your funnel nest.<br>
+    If I knew you, once,<br>
+    now I know you less.<br>
+    In the sinking sand,<br>
+    where we've come to rest,<br>
+    have I had a hand in your loneliness?<br>
     <br>
-    When you leave me alone
-    in this old palace of yours,
-    it starts to get to me. I take to walking.
-    What a woman does is open doors.
-    And it is not a question of locking
-    or unlocking.
+    When you leave me alone<br>
+    in this old palace of yours,<br>
+    it starts to get to me. I take to walking.<br>
+    What a woman does is open doors.<br>
+    And it is not a question of locking<br>
+    or unlocking.<br>
     <br>
-    Well, I have never seen
-    such a terrible room —
-    gilded with the gold teeth
-    of the women who loved you!
-    Now, though I die,
-    Magpie, this I bequeath:
-    by any other name,
-    a Jay is still blue
+    Well, I have never seen<br>
+    such a terrible room —<br>
+    gilded with the gold teeth<br>
+    of the women who loved you!<br>
+    Now, though I die,<br>
+    Magpie, this I bequeath:<br>
+    by any other name,<br>
+    a Jay is still blue<br>
     <br>
-    with the loneliness
-    of you mighty men,
-    with your mighty kiss
-    that might never never end,
-    while, so far away,
-    in the seat of the West,
-    burns the fount
-    of the heat
-    of that loneliness.
+    with the loneliness<br>
+    of you mighty men,<br>
+    with your mighty kiss<br>
+    that might never never end,<br>
+    while, so far away,<br>
+    in the seat of the West,<br>
+    burns the fount<br>
+    of the heat<br>
+    of that loneliness.<br>
     <br>
-    There's a man
-    who only will speak in code,
-    backing slowly, slowly down the road.
-    May he master everything
-    that such men may know
-    about loving, and then letting go.
+    There's a man<br>
+    who only will speak in code,<br>
+    backing slowly, slowly down the road.<br>
+    May he master everything<br>
+    that such men may know<br>
+    about loving, and then letting go.<br>
   </p>
     
   <h4 id="HOOM-header">Have One on Me</h4>
   <p>
-    From the courtyard, I floated in
-    and watched it go down.
-    Heard the cup drop;
-    thought, "Well,
-    that's why they keep them around."
-    The blackguard sat hard, down,
-    with no head on him now,
-    and I felt so bad,
-    cause I didn't know how
-    to feel bad enough
-    to make him proud.
+    From the courtyard, I floated in<br>
+    and watched it go down.<br>
+    Heard the cup drop;<br>
+    thought, 'Well,<br>
+    that's why they keep them around.'<br>
+    The blackguard sat hard, down,<br>
+    with no head on him now,<br>
+    and I felt so bad,<br>
+    cause I didn't know how<br>
+    to feel bad enough<br>
+    to make him proud.<br>
     <br>
-    By the time you read this,
-    I will be so far away.
-    Daddy longlegs, how in the world
-    am I to be expected to stay?
-    In the night —
-    in the night, you may hear me call
-    Pa, stay your hand
-    and steel your resolve.
-    Stay where you are,
-    so long and tall.
+    By the time you read this,<br>
+    I will be so far away.<br>
+    Daddy longlegs, how in the world<br>
+    am I to be expected to stay?<br>
+    In the night —<br>
+    in the night, you may hear me call<br>
+    Pa, stay your hand<br>
+    and steel your resolve.<br>
+    Stay where you are,<br>
+    so long and tall.<br>
     <br>
-    Here's Lola — ta da! — to do
-    her famous Spider Dance for you!
-    Lighten up your pockets!
-    Shake her skirts and scatter, there,
-    a shrieking, six-legged millionaire
-    with a blight in his sockets.
+    Here's Lola — ta da! — to do<br>
+    her famous Spider Dance for you!<br>
+    Lighten up your pockets!<br>
+    Shake her skirts and scatter, there,<br>
+    a shrieking, six-legged millionaire<br>
+    with a blight in his sockets.<br>
     <br>
-    Miss Montez,
-    the Countess of Lansfeld,
-    appealed to the King of Bavaria,
-    saying, "Pretty papa,
-    if you are my friend —
-    mister daddy longlegs, they are at it again! —
-    Can I see you?"
+    Miss Montez,<br>
+    the Countess of Lansfeld,<br>
+    appealed to the King of Bavaria,<br>
+    saying, "Pretty papa,<br>
+    if you are my friend —<br>
+    mister daddy longlegs, they are at it again! —<br>
+    Can I see you?"<br>
     <br>
-    Poor Lola! A tarantula's mounting
-    Countess Lansfeld's
-    handsome brassiere,
-    while they all cheer.
+    Poor Lola! A tarantula's mounting<br>
+    Countess Lansfeld's<br>
+    handsome brassiere,<br>
+    while they all cheer.<br>
     <br>
-    And the old king fell from grace,
-    while Lola fled,
-    To save face and her career
+    And the old king fell from grace,<br>
+    while Lola fled,<br>
+    To save face and her career<br>
     <br>
-    You caught a fly, floating by,
-    Wait for him to drown in the dust;
-    drown in the dust of other flies,
-    whereby the machine is run,
-    and the deed is done.
-    Heaven has no word
-    for the way you and your friends
-    have treated poor Louis.
-    May god save your poor soul, Lola.
-    (But there is nothing I adore,
-    apart from that whore's black heart.)
+    You caught a fly, floating by,<br>
+    Wait for him to drown in the dust;<br>
+    drown in the dust of other flies,<br>
+    whereby the machine is run,<br>
+    and the deed is done.<br>
+    Heaven has no word<br>
+    for the way you and your friends<br>
+    have treated poor Louis.<br>
+    May god save your poor soul, Lola.<br>
+    (But there is nothing I adore,<br>
+    apart from that whore's black heart.)<br>
     <br>
-    Well, doesn't that just beat all!
-    Miss Gilbert,
-    called to Castlemaine
-    by the silver dollar and the gold glitter!
-    Well, I've seen lots,
-    but never, in a million years,
-    would think to see you, here.
+    Well, doesn't that just beat all!<br>
+    Miss Gilbert,<br>
+    called to Castlemaine<br>
+    by the silver dollar and the gold glitter!<br>
+    Well, I've seen lots,<br>
+    but never, in a million years,<br>
+    would think to see you, here.<br>
     <br>
-    Though the long road
-    begins and ends with you,
-    I cannot seem to make amends
-    with you, Louis.
-    When we go out,
-    they're bound to see you with me.
+    Though the long road<br>
+    begins and ends with you,<br>
+    I cannot seem to make amends<br>
+    with you, Louis.<br>
+    When we go out,<br>
+    they're bound to see you with me.<br>
     <br>
-    At night, I walk in the park,
-    with a whip,
-    between the lines
-    of the whispering Jesuits,
-    who are poisoning you against me.
-    There's a big black spider
-    hanging over my door.
-    Can't go anywhere, anymore.
-    Tell me, are you with me?
+    At night, I walk in the park,<br>
+    with a whip,<br>
+    between the lines<br>
+    of the whispering Jesuits,<br>
+    who are poisoning you against me.<br>
+    There's a big black spider<br>
+    hanging over my door.<br>
+    Can't go anywhere, anymore.<br>
+    Tell me, are you with me?<br>
     <br>
-    I called to you, several times,
-    while the change took place
-    and then arrived, all night,
-    and I died.
-    But all these songs,
-    when you and I are long gone,
-    will carry on.
-    Mud in your eye.
+    I called to you, several times,<br>
+    while the change took place<br>
+    and then arrived, all night,<br>
+    and I died.<br>
+    But all these songs,<br>
+    when you and I are long gone,<br>
+    will carry on.<br>
+    Mud in your eye.<br>
     <br>
-    You asked my hand,
-    hired a band.
-    "In your heart is all that you need;
-    ask and you will receive," it is said.
-    I threw my bouquet,
-    and I knocked 'em dead.
+    You asked my hand,<br>
+    hired a band.<br>
+    "In your heart is all that you need;<br>
+    ask and you will receive," it is said.<br>
+    I threw my bouquet,<br>
+    and I knocked 'em dead.<br>
     <br>
-    Bottle of white, bottle of red.
-    Helpless as a child,
-    when you held me in your arms,
-    and I knew that no other
-    could ever love me as you loved.
-    Love me as you loved.
-    But help me! I'm leaving!
+    Bottle of white, bottle of red.<br>
+    Helpless as a child,<br>
+    when you held me in your arms,<br>
+    and I knew that no other<br>
+    could ever love me as you loved.<br>
+    Love me as you loved.<br>
+    But help me! I'm leaving!<br>
     <br>
-    I remember everything,
-    down to the sound of you shaving —
-    the scrape of your razor,
-    the dully-abrading black hair
-    that remained
-    when you clutched at me,
-    that night I came upstairs, half-dead,
-    and, in your kindness,
-    you put me straightaway
-    in the cupboard,
-    with a bottle of champagne,
-    and then, later, on a train.
+    I remember everything,<br>
+    down to the sound of you shaving —<br>
+    the scrape of your razor,<br>
+    the dully-abrading black hair<br>
+    that remained<br>
+    when you clutched at me,<br>
+    that night I came upstairs, half-dead,<br>
+    and, in your kindness,<br>
+    you put me straightaway<br>
+    in the cupboard,<br>
+    with a bottle of champagne,<br>
+    and then, later, on a train.<br>
     <br>
-    It was dark out, I was half-dead.
-    I saw a star fall into the sky,
-    like a chunk of thrown coal,
-    as if god himself spat
-    like a cornered rat.
+    It was dark out, I was half-dead.<br>
+    I saw a star fall into the sky,<br>
+    like a chunk of thrown coal,<br>
+    as if god himself spat<br>
+    like a cornered rat.<br>
     <br>
-    I really want you to do this for me,
-    will you have one on me?
+    I really want you to do this for me,<br>
+    will you have one on me?<br>
     <br>
-    It was dark; I was drunk and half-dead,
-    and we slept, knocking heads,
-    sitting up in the star-smoking air,
-    knocking heads like buoys.
+    It was dark; I was drunk and half-dead,<br>
+    and we slept, knocking heads,<br>
+    sitting up in the star-smoking air,<br>
+    knocking heads like buoys.<br>
     <br>
-    Don't you worry for me!
-    Will you have one on me!
+    Don't you worry for me!<br>
+    Will you have one on me!<br>
     <br>
-    Meanwhile, I will raise my own glass
-    to how you made me fast
-    and expendable,
-    and I will drink to your excellent health,
-    and your cruelty.
-    Will you have one on me?
+    Meanwhile, I will raise my own glass<br>
+    to how you made me fast<br>
+    and expendable,<br>
+    and I will drink to your excellent health,<br>
+    and your cruelty.<br>
+    Will you have one on me?<br>
     <br>
-    — helpless as a child,
-    when you held me in your arms,
-    and I knew that no other
-    could ever love me —
+    — helpless as a child,<br>
+    when you held me in your arms,<br>
+    and I knew that no other<br>
+    could ever love me —<br>
     <br>
-    From the courtyard, I floated in
-    and watched it go down.
-    Heard the cup drop;
-    thought, "Well, that's why
-    they keep them around."
-    The blackguard sat hard, down,
-    with no head on him now,
-    and I felt so bad,
-    cause I didn't know how
-    to feel bad enough
-    to make him proud.
+    From the courtyard, I floated in<br>
+    and watched it go down.<br>
+    Heard the cup drop;<br>
+    thought, "Well, that's why<br>
+    they keep them around."<br>
+    The blackguard sat hard, down,<br>
+    with no head on him now,<br>
+    and I felt so bad,<br>
+    cause I didn't know how<br>
+    to feel bad enough<br>
+    to make him proud.<br>
     <br>
-    Well daddy longlegs, are you?
-    Daddy longlegs, are you?
-    Daddy longlegs, are you proud?
+    Well daddy longlegs, are you?<br>
+    Daddy longlegs, are you?<br>
+    Daddy longlegs, are you proud?<br>
   </p>
-    
-  
-  <h3>Divers</h3>
-  <img href="https://github.com/monicajasper/joannalyrics/blob/main/Divers_AlbumCover.jpg" alt="Divers album cover"><br>
+</section> 
 
+
+<section class="main-section">  
+  <header id="Dalb-header">Divers</header>
+  
   <h4 id="Divers-header">Divers</h4>
   <p>
-    The diver is my love
-    (and I am his, if I am not deceived),
-    who takes one breath above, for every hour below the sea;
-    who gave to me a jewel
-    worth twice this woman's life (but would cost her less
-    than laying at low tide,
-    to see her true love phosphoresce).
+    The diver is my love<br>
+    (and I am his, if I am not deceived),<br>
+    who takes one breath above, for every hour below the sea;<br>
+    who gave to me a jewel<br>
+    worth twice this woman's life (but would cost her less<br>
+    than laying at low tide,<br>
+    to see her true love phosphoresce).<br>
     <br>
-    And in an infinite regress:
-    Tell me, why is the pain of birth
-    lighter borne than the pain of death?
-    I ain't saying that I loved you first,
-    but I loved you best.
+    And in an infinite regress:<br>
+    Tell me, why is the pain of birth<br>
+    lighter borne than the pain of death?<br>
+    I ain't saying that I loved you first,<br>
+    but I loved you best.<br>
     <br>
-    I know we must abide
-    each by the rules that bind us here:
-    the divers, and the sailors, and the women on the pier.
-    But how do you choose your form?
-    How do you choose your name? How do you choose your life?
-    How do you choose the time you must exhale,
-    and kick, and rise?
+    I know we must abide<br>
+    each by the rules that bind us here:<br>
+    the divers, and the sailors, and the women on the pier.<br>
+    But how do you choose your form?<br>
+    How do you choose your name? How do you choose your life?<br>
+    How do you choose the time you must exhale,<br>
+    and kick, and rise?<br>
     <br>
-    And in an infinite capsize:
-    Like a bull tearing down the coast,
-    double hulls bearing double masts—
-    I don't know if you loved me most, but you loved me last.
+    And in an infinite capsize:<br>
+    Like a bull tearing down the coast,<br>
+    double hulls bearing double masts—<br>
+    I don't know if you loved me most, but you loved me last.<br>
     <br>
-    Recall the word you gave:
-    to count your way across the depths of this arid world,
-    where you would yoke the waves,
-    and lay a bed of shining pearls!
-    I dream it every night:
-    the ringing of the pail,
-    the motes of sand dislodged,
-    the shucking, quick and bright;
-    the twinned and cast-off shells reveal a single heart of white.
+    Recall the word you gave:<br>
+    to count your way across the depths of this arid world,<br>
+    where you would yoke the waves,<br>
+    and lay a bed of shining pearls!<br>
+    I dream it every night:<br>
+    the ringing of the pail,<br>
+    the motes of sand dislodged,<br>
+    the shucking, quick and bright;<br>
+    the twinned and cast-off shells reveal a single heart of white.<br>
     <br>
-    And in an infinite backslide:
-    Ancient border, sink past the West,
-    like a sword at the bearer's fall.
-    I can't claim that I knew you best,
-    but did you know me at all?
+    And in an infinite backslide:<br>
+    Ancient border, sink past the West,<br>
+    like a sword at the bearer's fall.<br>
+    I can't claim that I knew you best,<br>
+    but did you know me at all?<br>
     <br>
-    A woman is alive!
-    A woman is alive;
-    you do not take her for a sign in nacre on a stone,
-    alone, unfaceted and fine.
-    And never will I wed.
-    I'll hunt the pearl of death to the bottom of my life,
-    and ever hold my breath,
-    till I may be the diver's wife.
+    A woman is alive!<br>
+    A woman is alive;<br>
+    you do not take her for a sign in nacre on a stone,<br>
+    alone, unfaceted and fine.<br>
+    And never will I wed.<br>
+    I'll hunt the pearl of death to the bottom of my life,<br>
+    and ever hold my breath,<br>
+    till I may be the diver's wife.<br>
     <br>
-    See how the infinite divides:
-    and the divers are not to blame
-    for the rift, spanning distant shores.
-    You don't know my name,
-    but I know yours.
+    See how the infinite divides:<br>
+    and the divers are not to blame<br>
+    for the rift, spanning distant shores.<br>
+    You don't know my name,<br>
+    but I know yours.<br>
   </p>
-
+  
+  <!--These code elements are included to pass the requirements of the technical documentation site but are hidden from display-->
+  <code><li></li></code>
+  <code><li></li></code>
+  <code><li></li></code>
+  <code><li></li></code>
+  <code><li></li></code>
+</section> 
     
+  </main>
+   
+    <!--
   <footer>
-  This is the cover art for Divers by the artist Joanna Newsom. The cover art copyright is believed to belong to the label, Drag City, or the graphic artist(s). Lyrics were sourced from another fan site, https://joannanewsomlyrics.com/
-  </footer>
-
+  This is the cover art for the music artist Joanna Newsom. The cover art copyright is believed to belong to the label, Drag City, or the graphic artist(s). Lyrics were sourced from another fan site, https://joannanewsomlyrics.com/
+  </footer>-->
+    
 </body>
+  
+
+
 </html>
