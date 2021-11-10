@@ -1,10 +1,5 @@
 /*Simple web page using responsive media and CSS flexbox.*/
 
-html
-{
-  scroll-padding-top: 380px;
-  height: 100%;
-}
 
 body
 {
@@ -68,7 +63,7 @@ h3 a
 #nav-bar
 {
   display: flex;
-  flex wrap: column wrap;
+  flex-flow: column wrap;
   justify-content: center;
   position: fixed;
   top: 110px;
