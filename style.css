@@ -59,10 +59,10 @@ h3 a
   padding-bottom: 5px;
 } 
 
-#nav-bar
+#navbar
 {
   display: flex;
-  /*flex-flow: column wrap;*/
+  flex-wrap:  wrap;
   justify-content: center;
   position: fixed;
   top: 110px;
