@@ -9,7 +9,6 @@ body
       rgba(222, 222, 222,.96),
       rgba(250, 245, 255,.92)), url(https://monicajasper.github.io/joanna-lyrics/ornate-background.jpg);
   background-position: center;
-  overflow: hidden;
 }
 
 .intro
@@ -167,6 +166,7 @@ footer
   position: relative;
   bottom: 10px;
   text-align: center;
+  font-size: 0.7em;
 }
 
 code
