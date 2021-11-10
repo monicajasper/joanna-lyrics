@@ -1,5 +1,10 @@
 /*Simple web page using responsive media and CSS flexbox.*/
 
+html
+{
+  scroll-padding-top: 380px;
+}
+
 body
 {
   font-family: Georgia;
