@@ -156,21 +156,11 @@ img
   padding-bottom: 40px;
 }
 
-/*
-@media{}
-
-@media (max-width: 600px) {
-  header {
-    flex-wrap: wrap;
-  }
-}
-*/
-
 footer
 {
   position: relative;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
   bottom: 10px;
   font-size: 0.7em;
 }
