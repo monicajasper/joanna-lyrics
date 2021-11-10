@@ -170,6 +170,7 @@ footer
   position: relative;
   bottom: 10px;
   text-align: center;
+  padding-top: 20px;
   font-size: 0.7em;
 }
 
@@ -177,6 +178,3 @@ code
 {
   display: none;
 }
-
-/*laptop/desktop
-#navbar{left half of screen, always visible, stationary, doesn't scroll, zoom out or enlarge viewport if needed?}*/
