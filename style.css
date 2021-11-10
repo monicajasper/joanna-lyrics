@@ -1,5 +1,10 @@
 /*Simple web page using responsive media and CSS flexbox.*/
 
+html
+{
+  scroll-padding-top: 380px;
+}
+
 body
 {
   font-family: Georgia;
@@ -132,13 +137,12 @@ img
   font-size: 1.1em;
   font-weight: bold;
   text-align: center;
-  padding: 20px 0px;
+  padding-top: 40px;
 }
 
 .main-section h4
 {
   font: italic 400 18px Georgia serif;
-  line-height: .2;
   display: flex;
   justify-items: flex-start;
   padding: 8px 0px 4px 20%;
