@@ -152,7 +152,7 @@ img
   display: flex;
   justify-items: flex-start;
   padding-left: 20%;
-  font-size: 15px;
+  font: normal 200 15px Georgia serif;
 }
 
 /*
@@ -168,9 +168,8 @@ img
 footer
 {
   position: relative;
-  bottom: 10px;
   text-align: center;
-  padding-top: 20px;
+  padding: 30px auto 10px auto;
   font-size: 0.7em;
 }
 
