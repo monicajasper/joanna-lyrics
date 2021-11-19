@@ -1,0 +1,242 @@
+/*Simple web page using responsive media and CSS flexbox.*/
+
+body
+{
+  font-family: Georgia;
+  background-image: linear-gradient(30deg,
+      rgba(250, 245, 255,.92),
+      rgba(222, 222, 222,.96),
+      rgba(250, 245, 255,.92)), url(https://monicajasper.github.io/joanna-lyrics/ornate-background.jpg);
+  background-position: center;
+}
+
+#navbar
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /*width: 280px;*/
+  display: float;
+  float: left;
+  width: 30%;
+  background-image: linear-gradient(180deg,
+      rgba(238, 238, 247, .96),
+      rgba(226, 221, 238, .96)),
+      url(https://monicajasper.github.io/joanna-lyrics/ornate-background.jpg);
+  box-shadow: 2px 2px 4px rgba(100, 100, 100, 1);
+  overflow-y: scroll;
+  z-index: 4;
+
+}
+
+.intro
+{
+  text-align: center; 
+  position: relative;
+  margin-top: -10px;
+  padding: 5px;
+
+  background-image: linear-gradient(180deg,
+      rgba(238, 238, 247, 1),
+      rgba(226, 221, 238, 1)), url(https://monicajasper.github.io/joanna-lyrics/ornate-background.jpg);
+  box-shadow: 0px .5px 4px rgba(100, 100, 100, 1);
+  z-index: 5;
+}
+
+h1
+{
+  font: normal 400 28px Georgia serif;
+  line-height: 0.5;
+  color: indigo;
+}
+
+h2
+{
+  font: normal 400 18px Georgia serif;
+  line-height: 0.5;
+}
+
+#quote
+{
+  font: italic 400 15px Georgia serif;
+  margin: 0 5px;
+  padding-bottom: 5px;
+} 
+
+a
+{
+  color: indigo;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 3px auto;
+  text-align: center;
+}
+
+h3 a
+{
+  font-size: 18px;
+  margin-bottom: -0.5em;
+}
+
+div
+{
+  width: 100%;
+  /*margin-bottom: 5px;*/
+}
+
+.nav-link
+{
+  display: flex;
+  justify-content: center;
+}
+
+.song
+{
+  display: flex;
+  justify-content: center;
+}
+
+img
+{
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  height: auto;
+}
+
+#main-doc
+{
+  position: relative;
+  margin: 0px auto;
+  display: float;
+  float: right;
+  width: 70%;
+  /*width: 100%;*/
+  height: 800px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 3;
+}
+
+.main-section
+{
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  z-index: 2;
+}
+
+.main-section header
+{
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.main-section h4
+{
+  font: italic 400 18px Georgia serif;
+  display: flex;
+  justify-items: flex-start;
+  padding: 4px 0px 0px 30%;
+}
+
+.main-section p
+{
+  display: flex;
+  justify-items: flex-start;
+  padding-left: 30%;
+  font: normal 200 15px Georgia serif;
+  padding-bottom: 20px;
+}
+
+hr
+{
+  width: 300px
+}
+
+footer
+{
+  display: float;
+  float: right;
+  width: 70%;
+  position: relative;
+  text-align: center;
+  bottom: 10px;
+  font-size: 0.7em;
+}
+
+code
+{
+  display: none;
+}
+
+@media (max-width:850px)
+{
+  
+  .main-section h4
+  {
+    padding: 4px 0px 0px 10%;  
+  }
+  
+  .main-section p
+  {
+    padding-left: 10%;
+    padding-botton: 5px;
+  }
+  
+  footer
+  {
+    display: none;
+  }
+  
+}
+
+@media (max-width:680px)
+{ 
+  h1
+  {
+    line-height: 1em;
+    font-size: 22px;
+    font-style: bold;
+    padding-bottom: -20px;
+  } 
+  
+  h2
+  {
+    display: none;
+  }
+  
+  h3 a
+  {
+  font-size: 17px;
+  margin-bottom: -0.5em;
+  }
+  
+  .main-section header
+  {
+    font-size: 17px;
+    padding: 5px;
+  }
+  
+  .main-section h4
+  {
+    font-size: 16.5px;
+    padding-top: 0px;
+  }
+  
+  a
+  {
+    font-size: 13px;  
+  }
+  
+  img
+  {
+  display: block;
+  margin: 2px auto;
+  width: 120px;
+  height: auto;
+  }
+}
