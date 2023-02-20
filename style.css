@@ -164,6 +164,7 @@ footer
   width: 70%;
   position: relative;
   text-align: center;
+  top: 5px;
   bottom: 10px;
   font-size: 0.7em;
 }
